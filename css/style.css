@@ -1,0 +1,92 @@
+:root {
+  --nav-color: #0b2433;
+  --back-color: #4b718c;
+  --secondary-color: ;
+  --hover-color: ;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.5rem;
+  background-color: #4b718c;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+/* Navbar */
+x .carousel-item img {
+  height: 500px;
+}
+
+.content-test {
+  margin: 400px;
+}
+
+.sc img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.sc {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+#shop_category {
+  padding-top: 5%;
+}
+#shop_collection {
+  padding-top: 5%;
+}
+
+.sc h3 {
+  padding-bottom: 5%;
+  font-family: 'Special Elite', cursive;
+  text-decoration: underline;
+}
+
+.sc img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.sc:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.carousel {
+  width: 100%;
+  margin: 20px auto;
+  color: #000;
+  text-align: center;
+}
+
+.container .carousel-item h2,
+.container .carousel-item p {
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+}
+
+.container .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.container .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}

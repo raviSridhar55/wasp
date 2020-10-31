@@ -1,0 +1,23 @@
+.thumbnail img{
+	width: 100%;
+	
+}
+.thumbnail{
+	padding: 0;
+}
+
+.thumbnail .caption-full{
+	padding: 9px;
+} 
+
+
+
+
+.active a{
+	color:white;
+}
+@media(max-width: 1000px){
+	#heading div{
+		display:none;
+}
+	
